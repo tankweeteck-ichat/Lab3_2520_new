@@ -22,7 +22,7 @@ def cost_of_fruits(fruit, quantity):
             break
 
     print("cost of ", quantity, fruit, "=", cost)
-    return cost
+    return round(cost, 2)
 
 
 def main():
